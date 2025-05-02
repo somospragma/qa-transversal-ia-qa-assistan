@@ -34,8 +34,8 @@ La aplicación pretende ser un asistente impulsado por inteligencia artificial p
   <a href="#roadmap">Roadmap</a>
 </p>
 
-El siguiente GIF es de ejemplo, si tienes uno propio reemplazalo, de lo contrario eliminalo.
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](https://github.com/user-attachments/assets/9a9d1efa-a9e7-49ec-9ab3-5e4e73bc4abf)
+)
 
 
 ## Autores

@@ -30,7 +30,8 @@
   </a>
 </p>
 
-Redacta aca una breve descripcion del proyecto...
+# ¿Qué  es QAssistant?
+La aplicación pretende ser un asistente impulsado por inteligencia artificial para las actividades cotidianas que realiza una persona que cumple el rol de Quality Assurance en los equipos de desarrollo de software. Como se dijo anteriormente, solo es un asistente y no pretende reemplazar el rol de QA, más bien, prentende ser una herramienta que ayude a ampliar el campo visual del QA.
 
 <p align="center">
   <a href="#topicos">Topicos</a> •`

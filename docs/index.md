@@ -2,31 +2,21 @@
   <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://f.hubspotusercontent20.net/hubfs/2829524/Copia%20de%20LOGOTIPO_original-2.png"></a>
   <br>
-  Nombre del Proyecto
+  QAssistant
   <br>
 </h1>
 
 <p align="center">
-  <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html">
-    <img src="https://img.shields.io/badge/Java-11+-orange.svg" alt="Java">
+  <a href="https://nodejs.org/es/download">
+    <img src="https://img.shields.io/badge/Node-v20.17.0-orange.svg" alt="Java">
   </a>
-  <a href="https://www.mysql.com/">
-    <img src="https://img.shields.io/badge/Database-MySQL-blue.svg" alt="MySQL">
+  <a href="https://www.npmjs.com/">
+    <img src="https://img.shields.io/badge/NPM-v10.8.2-blue.svg" alt="MySQL">
   </a>
-  <a href="https://www.postgresql.org/">
-    <img src="https://img.shields.io/badge/Database-PostgreSQL-blue.svg" alt="PostgreSQL">
+  <a href="https://es.react.dev/">
+    <img src="https://img.shields.io/badge/React-V19.0.0-blue.svg" alt="PostgreSQL">
   </a>
-  <a href="https://www.w3schools.com/sql/">
-    <img src="https://img.shields.io/badge/SQL-Fundamentals-lightgrey.svg" alt="SQL">
-  </a>
-  <a href="https://cucumber.io/">
-    <img src="https://img.shields.io/badge/Cucumber-BDD-green.svg" alt="Cucumber">
-  </a>
-  <a href="https://serenity-bdd.info/">
-    <img src="https://img.shields.io/badge/Serenity-Reporting-blueviolet.svg" alt="Serenity">
-  </a>
-  <a href="https://www.selenium.dev/">
-    <img src="https://img.shields.io/badge/Selenium-Web_Testing-brightgreen.svg" alt="Selenium">
+    <img src="https://img.shields.io/badge/QAssistant-1.0.0-blueviolet.svg" alt="Serenity">
   </a>
 </p>
 
@@ -51,13 +41,8 @@ El siguiente GIF es de ejemplo, si tienes uno propio reemplazalo, de lo contrari
 ## Autores
 
 
-| [<img src="https://gitlab.com/uploads/-/system/user/avatar/13437423/avatar.png?width=400" width=115><br><sub>Mauro L. Ibarra P.</sub>](https://gitlab.com/mauro.ibarrap) <br/> | [<img src="https://secure.gravatar.com/avatar/23b2db02403d79ebd356e8e8356758ec?s=192&d=identicon" width=115><br><sub>Otro autor</sub>](https://gitlab.com/) | 
+| [<img src="https://lh3.googleusercontent.com/a-/ALV-UjV-8cLzki8BB-t0CF3pptk8md7PSQswtem4WvwxgdSSIkINYOM=s100-p-k-rw-no?width=400" width=115><br><sub>Alejandro Luna</sub>](https://gitlab.com/mauro.ibarrap) <br/> | [<img src="https://avatars.githubusercontent.com/u/210093165?v=4" width=115><br><sub>Felipe Londoño.</sub>](https://gitlab.com/) | 
 :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-
-
-## Relacionados
-
-- [proyecto-base-serenity-bdd-screenplay-browsers-and-utilities](https://github.com/somospragma/qa-web-proyecto-base-serenity-bdd-screenplay-browsers-and-utilities)
 
 
 ## Roadmap

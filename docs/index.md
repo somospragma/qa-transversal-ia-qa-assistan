@@ -35,7 +35,7 @@ La aplicación pretende ser un asistente impulsado por inteligencia artificial p
 </p>
 
 ![screenshot](https://github.com/user-attachments/assets/9a9d1efa-a9e7-49ec-9ab3-5e4e73bc4abf)
-)
+
 
 
 ## Autores

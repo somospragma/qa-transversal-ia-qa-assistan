@@ -41,9 +41,8 @@ La aplicación pretende ser un asistente impulsado por inteligencia artificial p
 ## Autores
 
 
-| [<img src="https://lh3.googleusercontent.com/a-/ALV-UjV-8cLzki8BB-t0CF3pptk8md7PSQswtem4WvwxgdSSIkINYOM=s100-p-k-rw-no?width=400" width=115><br><sub>Alejandro Luna</sub>](https://gitlab.com/mauro.ibarrap) <br/> | [<img src="https://avatars.githubusercontent.com/u/210093165?v=4" width=115><br><sub>Felipe Londoño.</sub>](https://gitlab.com/) | 
+| [<img src="https://lh3.googleusercontent.com/a-/ALV-UjV-8cLzki8BB-t0CF3pptk8md7PSQswtem4WvwxgdSSIkINYOM=s100-p-k-rw-no?width=400" width=115><br><sub>Alejandro Luna</sub>](https://gitlab.com/alejofront) <br/> | [<img src="https://avatars.githubusercontent.com/u/210093165?v=4" width=115><br><sub>Felipe Londoño.</sub>](https://github.com/FelosquePragma) | 
 :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-
 
 ## Roadmap
 

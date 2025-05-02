@@ -1,0 +1,43 @@
+{
+  "public": {
+    "shared": {
+      "loading": "cargando..."
+    },
+    "components": {},
+    "pages": {
+      "home": {
+        "title": "QAssistant",
+        "placeholder": "APIKEY GEMINI",
+        "button": "ENTRAR"
+      },
+      "assistant": {
+        "nav": {
+          "firstBtn": "Test Cases"
+        },
+        "header": {
+          "title": "Test Cases"
+        },
+        "body": {
+          "title": "generador de casos de prueba",
+          "description": "Para generar casos de prueba, solo basta con agregar la descriptión y los criterios de aceptación de la historia de usuario. El programa generará los casos de prueba que sea conveniente según la información.",
+          "firstLabel":"Descripción de la HU:",
+          "secondLabel": "Agregar criterio de aceptación",
+          "button": "Generar casos de prueba",
+          "summary": {
+            "title": "Resumen",
+            "test_case": "caso de prueba",
+            "card": {
+              "description": "DESCRIPTIÓN:",
+              "priority": "PRIORIDAD:",
+              "type": "TIPO:",
+              "preconditions": "PRECONDICIONES:",
+              "gherkin": "GHERKIN:",
+              "expected_result": "RESULTADO ESPERADO:",
+              "recommendations": "RECOMENDACIONES:"
+            }
+          }
+        }
+      }
+    }
+  }
+}

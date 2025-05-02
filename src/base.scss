@@ -1,0 +1,95 @@
+/* src/styles/_reset.scss */
+
+/* Reestablecer los márgenes y rellenos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Asegura que el padding y border no afecten el tamaño de los elementos */
+}
+
+/* Eliminar los estilos por defecto de los elementos de lista */
+ul,
+ol {
+  list-style: none; /* Elimina los puntos y números de las listas */
+}
+
+/* Eliminar subrayado en enlaces */
+a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: inherit; /* Asegura que el color del enlace herede el color del texto */
+}
+
+/* Establecer la tipografía base */
+body {
+  font-family: 'Arial', sans-serif; /* O cualquier fuente que desees */
+  line-height: 1.5; /* Mejor legibilidad */
+  font-size: 16px;
+  background-color: #f4f4f4; /* Fondo neutro */
+  color: #333; /* Color de texto */
+  -webkit-font-smoothing: antialiased; /* Mejora la suavidad de las fuentes */
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Eliminar bordes predeterminados de formularios */
+input,
+button,
+textarea,
+select {
+  border: none;
+  outline: none; /* Elimina el borde de enfoque en algunos navegadores */
+  background: transparent; /* Elimina el fondo */
+}
+
+/* Hacer que los formularios tengan un aspecto consistente */
+input[type="text"],
+textarea {
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Mejorar la presentación de los botones */
+button {
+  cursor: pointer; /* Muestra el cursor como puntero */
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+/* Eliminar la apariencia predeterminada de las tablas */
+table {
+  border-collapse: collapse; /* Elimina los espacios entre celdas */
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Resetear la apariencia de imágenes */
+img {
+  max-width: 100%; /* Asegura que las imágenes no se salgan de su contenedor */
+  height: auto; /* Mantiene la relación de aspecto */
+  display: block; /* Elimina el espacio debajo de las imágenes */
+}
+
+/* Evitar el espacio adicional en el borde de los iframe */
+iframe {
+  border: none;
+}
+
+/* Evitar el desplazamiento vertical de los elementos de formulario */
+textarea {
+  resize: vertical;
+}
+
+/* Eliminar la apariencia predeterminada de las listas de menú */
+nav ul {
+  padding: 0;
+  margin: 0;
+}

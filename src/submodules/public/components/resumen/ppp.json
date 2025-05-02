@@ -1,0 +1,231 @@
+[
+    {
+        "id": "TC_001",
+        "name": "Acceso a la App con Biometría Facial Correcta",
+        "description": "Verifica que el usuario pueda acceder a la aplicación utilizando la biometría facial correctamente.",
+        "preconditions": [
+            "Usuario registrado en el sistema con biometría facial configurada.",
+            "Dispositivo con cámara frontal funcional.",
+            "Conexión a internet estable."
+        ],
+        "gherking": {
+            "given": "que el usuario está en la pantalla de inicio de sesión",
+            "when": "el usuario intenta acceder usando la biometría facial",
+            "then": "el usuario es autenticado exitosamente",
+            "and": "se le redirige al dashboard principal de la aplicación"
+        },
+        "expected_result": "El usuario accede a la aplicación sin problemas y visualiza el dashboard principal.",
+        "priority": "Alta",
+        "type": "Funcional",
+        "recommendations": [
+            "Validar la precisión del reconocimiento facial en diferentes condiciones de iluminación.",
+            "Asegurar la seguridad de los datos biométricos almacenados."
+        ]
+    },
+    {
+        "id": "TC_002",
+        "name": "Acceso a la App con Biometría Facial Incorrecta",
+        "description": "Verifica que el sistema niegue el acceso si la biometría facial no coincide.",
+        "preconditions": [
+            "Usuario registrado en el sistema con biometría facial configurada.",
+            "Dispositivo con cámara frontal funcional.",
+            "Conexión a internet estable."
+        ],
+        "gherking": {
+            "given": "que el usuario está en la pantalla de inicio de sesión",
+            "when": "el usuario intenta acceder usando una biometría facial incorrecta",
+            "then": "el sistema muestra un mensaje de error indicando que la biometría facial no coincide",
+            "and": "el usuario permanece en la pantalla de inicio de sesión"
+        },
+        "expected_result": "El acceso es denegado y se muestra un mensaje de error al usuario.",
+        "priority": "Alta",
+        "type": "Funcional",
+        "recommendations": [
+            "Implementar un mecanismo de recuperación de cuenta en caso de fallos repetidos en la autenticación biométrica.",
+            "Asegurarse de que el mensaje de error sea claro y fácil de entender para el usuario."
+        ]
+    },
+    {
+        "id": "TC_003",
+        "name": "Consulta de Línea de SisteCrédito Disponible",
+        "description": "Verifica que el usuario pueda consultar su línea de SisteCrédito disponible.",
+        "preconditions": [
+            "Usuario registrado con SisteCrédito activo.",
+            "Conexión a internet estable.",
+            "Usuario autenticado en la aplicación."
+        ],
+        "gherking": {
+            "given": "que el usuario está en el dashboard principal de la aplicación",
+            "when": "el usuario navega a la sección de SisteCrédito",
+            "then": "se muestra la línea de crédito disponible del usuario",
+            "and": "se muestra el historial de transacciones de SisteCrédito"
+        },
+        "expected_result": "La línea de crédito disponible y el historial de transacciones se muestran correctamente.",
+        "priority": "Alta",
+        "type": "Funcional",
+        "recommendations": [
+            "Asegurarse de que la información mostrada sea precisa y actualizada en tiempo real.",
+            "Implementar medidas de seguridad para proteger la información financiera del usuario."
+        ]
+    },
+    {
+        "id": "TC_004",
+        "name": "Intento de Pago con SisteCrédito sin Fondos Suficientes",
+        "description": "Verifica que el sistema impida un pago con SisteCrédito si no hay fondos suficientes disponibles.",
+        "preconditions": [
+            "Usuario registrado con SisteCrédito activo.",
+            "Conexión a internet estable.",
+            "Usuario autenticado en la aplicación.",
+            "Línea de crédito insuficiente para el pago."
+        ],
+        "gherking": {
+            "given": "que el usuario está realizando un pago a través de la aplicación",
+            "when": "el usuario selecciona SisteCrédito como método de pago e intenta realizar un pago que excede su línea de crédito disponible",
+            "then": "el sistema muestra un mensaje de error indicando que no hay fondos suficientes",
+            "and": "el pago es rechazado"
+        },
+        "expected_result": "El pago es rechazado y se muestra un mensaje de error al usuario.",
+        "priority": "Alta",
+        "type": "Funcional",
+        "recommendations": [
+            "Asegurarse de que el mensaje de error sea claro y explique la razón del rechazo del pago.",
+            "Ofrecer alternativas de pago al usuario."
+        ]
+    },
+    {
+        "id": "TC_005",
+        "name": "Verificación de Conexión a Internet Exitosa",
+        "description": "Verifica que la aplicación detecte correctamente una conexión a internet estable.",
+        "preconditions": [
+            "Usuario registrado en el sistema.",
+            "Conexión a internet activa."
+        ],
+        "gherking": {
+            "given": "que el usuario abre la aplicación",
+            "when": "la aplicación intenta conectarse al servidor",
+            "then": "la aplicación se conecta exitosamente al servidor",
+            "and": "el usuario puede acceder a todas las funcionalidades que requieren conexión a internet"
+        },
+        "expected_result": "La aplicación funciona correctamente y el usuario puede acceder a todas las funcionalidades.",
+        "priority": "Alta",
+        "type": "Funcional",
+        "recommendations": [
+            "Implementar un indicador visual para mostrar el estado de la conexión a internet.",
+            "Optimizar el consumo de datos de la aplicación."
+        ]
+    },
+    {
+        "id": "TC_006",
+        "name": "Verificación de Conexión a Internet Fallida",
+        "description": "Verifica que la aplicación muestre un mensaje adecuado si no hay conexión a internet.",
+        "preconditions": [
+            "Usuario registrado en el sistema.",
+            "Sin conexión a internet."
+        ],
+        "gherking": {
+            "given": "que el usuario abre la aplicación",
+            "when": "la aplicación intenta conectarse al servidor y no hay conexión a internet",
+            "then": "la aplicación muestra un mensaje de error indicando que no hay conexión a internet",
+            "and": "las funcionalidades que requieren conexión a internet están deshabilitadas"
+        },
+        "expected_result": "Se muestra un mensaje de error claro al usuario y las funcionalidades offline permanecen disponibles.",
+        "priority": "Alta",
+        "type": "Funcional",
+        "recommendations": [
+            "Permitir que el usuario intente reconectarse fácilmente.",
+            "Implementar funcionalidades offline para que el usuario pueda seguir utilizando la aplicación de forma limitada."
+        ]
+    },
+    {
+        "id": "TC_007",
+        "name": "Consulta de Movimientos Sistecredito",
+        "description": "Verifica que se puede consultar los movimientos de Sistecredito en la app",
+        "preconditions": [
+            "Usuario registrado con SisteCrédito activo.",
+            "Conexión a internet estable.",
+            "Usuario autenticado en la aplicación."
+        ],
+        "gherking": {
+            "given": "que el usuario está en el panel principal de la aplicación",
+            "when": "el usuario selecciona la opción 'movimientos de Sistecredito'",
+            "then": "se despliega una lista con todos los movimientos realizados con Sistecredito",
+            "and": "cada movimiento muestra fecha, monto y descripcion"
+        },
+        "expected_result": "Muestra una lista detallada con los movimientos de Sistecredito",
+        "priority": "Media",
+        "type": "Funcional",
+        "recommendations": [
+            "Agregar filtros para buscar movimientos por fecha o monto",
+            "Exportar la información en formato PDF o CSV"
+        ]
+    },
+    {
+        "id": "TC_008",
+        "name": "Activación de Biometría Facial",
+        "description": "Verifica que se pueda activar la biometría facial en la app",
+        "preconditions": [
+            "Usuario registrado en el sistema.",
+            "Dispositivo con cámara frontal funcional.",
+            "Conexión a internet estable."
+        ],
+        "gherking": {
+            "given": "que el usuario se encuentra en la sección de 'seguridad' en la configuración de la app",
+            "when": "el usuario selecciona la opción de 'activar biometria facial'",
+            "then": "se solicita el permiso para acceder a la camara",
+            "and": "después de conceder el permiso se solicita al usuario registrar su rostro"
+        },
+        "expected_result": "Biometría facial registrada exitosamente",
+        "priority": "Media",
+        "type": "Funcional",
+        "recommendations": [
+            "Asegurarse de que el proceso de registro sea intuitivo y fácil de seguir",
+            "Dar recomendaciones sobre la iluminación al registrar el rostro"
+        ]
+    },
+    {
+        "id": "TC_009",
+        "name": "Desactivación de Biometría Facial",
+        "description": "Verifica que se pueda desactivar la biometría facial en la app",
+        "preconditions": [
+            "Usuario registrado en el sistema.",
+            "Biometria facial activa",
+            "Conexión a internet estable."
+        ],
+        "gherking": {
+            "given": "que el usuario se encuentra en la sección de 'seguridad' en la configuración de la app",
+            "when": "el usuario selecciona la opción de 'desactivar biometria facial'",
+            "then": "se solicita confirmación para desactivar la biometria facial",
+            "and": "después de confirmar se desactiva la biometria facial"
+        },
+        "expected_result": "Biometría facial desactivada exitosamente",
+        "priority": "Media",
+        "type": "Funcional",
+        "recommendations": [
+            "Solicitar la contraseña del usuario antes de desactivar la biometria",
+            "Dar una explicación clara de las implicaciones de desactivar la biometria"
+        ]
+    },
+    {
+        "id": "TC_010",
+        "name": "Intento de Acceso Sin Biometría Registrada",
+        "description": "Verifica que el sistema ofrezca la opción de acceso con contraseña si no existe biometría registrada.",
+        "preconditions": [
+            "Usuario registrado en el sistema.",
+            "Biometría facial NO configurada.",
+            "Conexión a internet estable."
+        ],
+        "gherking": {
+            "given": "que el usuario está en la pantalla de inicio de sesión",
+            "when": "el usuario intenta acceder con biometría facial sin tenerla configurada",
+            "then": "el sistema muestra un mensaje indicando que la biometría no está configurada",
+            "and": "se ofrece la opción de acceder con contraseña"
+        },
+        "expected_result": "El sistema informa la falta de biometría y permite el acceso con contraseña.",
+        "priority": "Media",
+        "type": "Funcional",
+        "recommendations": [
+            "Implementar un enlace directo para configurar la biometría facial si el usuario lo desea.",
+            "Asegurarse de que el mensaje sea informativo y guíe al usuario hacia la alternativa de acceso."
+        ]
+    }
+]   

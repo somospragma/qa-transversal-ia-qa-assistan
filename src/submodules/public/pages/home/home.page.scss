@@ -1,0 +1,48 @@
+.app-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FCFCFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    &__api-key {
+        height: 300px;
+        width: 90%;
+        margin: 0 auto;
+        background-color: #DDDDDD;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        @media (min-width: 700px) {
+            width: 600px;
+        }
+    }
+    &__title{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        color: #3331cf;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    &__input {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        border-radius: 40px;
+        background-color: #FFFFFF;
+        margin-bottom: 3rem;
+    }
+    &__btn-enter{
+        width: 50%;
+        margin: 0 auto;
+        background-color: #28a745;
+        margin-bottom: 3rem;
+        &--disable{
+            background-color: #639970;
+            cursor: not-allowed;
+        }
+    }
+}

@@ -1,8 +1,7 @@
 ## Tópicos
 
-* Java
-* Bases de datos
-* SQL
-* Cucumber
-* Serenity
-* Selenium
+* React
+* Asistente QA
+* Gemini
+* Inteligencia Artificial
+* NodeJS

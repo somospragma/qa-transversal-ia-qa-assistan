@@ -1,5 +1,5 @@
 
-##  🛠️ Run tests Chrome gradle:
+##  🛠️ Run tests:
 ```
 npm test
 ```

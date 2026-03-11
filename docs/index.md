@@ -34,7 +34,7 @@ La aplicación pretende ser un asistente impulsado por inteligencia artificial p
   <a href="#roadmap">Roadmap</a>
 </p>
 
-![screenshot](https://github.com/user-attachments/assets/9a9d1efa-a9e7-49ec-9ab3-5e4e73bc4abf)
+![n8n](https://github.com/user-attachments/assets/70ed2243-8ae0-4713-89c3-0325b7ee8905)
 
 
 
